@@ -1,58 +1,41 @@
-# 🧩 TP2 – HTML : Histoire du Web
+# TP 2 — Programmation Web / HTML
 
-## 🎯 Objectif du TP
-L’objectif de ce TP est de vous familiariser avec les principales **balises HTML** vues en cours.  
-Vous allez mettre en pratique ces notions à travers la **création d’une page Web complète**, dont le contenu portera sur :  
+Histoire du Web — Brève Chronologie et perspectives
 
-> **« Histoire du Web — Brève Chronologie et perspectives »**
+## Contenu du dossier
+- step1.html à step8.html : les huit étapes demandées dans le TP.
+- step8.html : la page finale complète.
+- ressources/ : images, fichier audio et vidéo utilisés par les pages.
 
----
+## Comment ouvrir le projet
+1. Décompressez le dossier ZIP.
+2. Gardez le dossier ressources au même niveau que les fichiers HTML.
+3. Ouvrez step8.html avec Firefox, Chrome ou Edge.
+4. Si une image, une vidéo ou le son ne s'affiche pas, vérifiez que le fichier existe
+   dans ressources/ et que son nom correspond au chemin écrit dans le HTML.
 
-## 📘 Ressources fournies
-- Le fichier **TP2_HTML.pdf** est votre **guide de réalisation** : lisez-le attentivement avant de commencer.
-- Le fichier **`Texte.pdf`**, comporte le **contenu textuel** à insérer dans votre page Web, 
-  ainsi que des **annotations** précisant les balises HTML à utiliser ainsi que certaines **valeurs d’attributs** attendues.
-- Un dossier **ressources** contenant les fichiers multimédias à mettre sur la page.
+## Ressources utilisées
+- LOD.png
+- ted_nelson.PNG
+- solid.PNG
+- hypertext.png
+- Vannevar_Bush.jpg
+- Tim_Cern.jpg
+- music.mp3
+- Memex_animation.mp4
 
----
+## Validation
+Vous pouvez vérifier step8.html avec le validateur W3C :
+https://validator.w3.org/nu/#textarea
 
-## 🧭 Déroulement du TP
+## GitHub
+Après avoir placé les fichiers dans votre dépôt Git, utilisez :
+git add .
+git commit -m "Travail Terminé"
+git push origin main
 
-1. **Création de votre espace de travail**
-   - Les étapes suivantes sont expliquées en détails dans les slide de **TP2_HTML.pdf**: 
-   - Créez un compte sur [GitHub].
-
-2. **Clonage du dépôt**
-   - Forker ce repo, puis clonez votre dépôt individuel.
-     ```bash
-     git clone <Lien vers votre repo>.git
-     cd nom-du-repo
-     ```
-
-3. **Réalisation du TP**
-   - Respectez les consignes indiquées dans **`TP2_HTML.pdf`**  et **`Texte.pdf`** (structure, balises, attributs, etc.).
-   - N'ajouter aucun dossier ou fichier qui n'est pas spécifié.
-
-4. **Soumission du travail**
-   - Une fois votre travail terminé, validez vos modifications :
-     ```bash
-     git add .
-     git commit -m "TP2 HTML terminé"
-     git push origin main
-     ```
-   - Votre dépôt GitHub sera automatiquement mis à jour avec votre rendu.
-
----
-
-## 🧾 Livrables attendus
-- 8 fichiers HTML: chaque fichier correspond à une étape (ex. step1.html...jusqu'à...step1.html). 
-- Le contenu doit correspondre exactement au texte fourni.
-
----
-
-## 🧠 Rappel
-Veillez à :
-- **Indenter correctement** votre code pour plus de lisibilité.
-
-- **Valider votre page** sur [W3C Validator](https://validator.w3.org/).
-
+## Remarque
+Le guide TP2_HTML.pdf renvoie à un fichier séparé nommé Texte.pdf pour le texte exact
+et certaines annotations HTML. Ce fichier n'était pas fourni ici. Les textes des
+thématiques sont donc rédigés simplement à partir du sujet et des ressources disponibles.
+Vérifiez les formulations exactes demandées par l'enseignant avant de rendre le TP.
